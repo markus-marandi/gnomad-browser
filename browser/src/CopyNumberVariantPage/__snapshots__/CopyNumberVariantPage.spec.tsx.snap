@@ -5,24 +5,22 @@ exports[`CopyNumberVariantPage with dataset gnomad_cnv_r4 with variant of type D
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Copy number variant: 
         21__DEL
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -461,24 +459,22 @@ exports[`CopyNumberVariantPage with dataset gnomad_cnv_r4 with variant of type D
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Copy number variant: 
         21__DUP
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul

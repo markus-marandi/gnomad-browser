@@ -1,290 +1,508 @@
 import queryString from 'query-string'
-import React from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
 
-import { ExternalLink, List, ListItem } from '@gnomad/ui'
-
 import DocumentTitle from './DocumentTitle'
+import BrandMark from './Brand'
 import InfoPage from './InfoPage'
 import Link from './Link'
 import Searchbox from './Searchbox'
-import GnomadLogo from './GnomadLogo'
 
-const HomePage = styled(InfoPage)`
-  max-width: 740px;
-  margin-top: 90px;
+const Page = styled(InfoPage)`
+  max-width: 1200px;
+  padding-top: clamp(34px, 7vw, 68px);
+  padding-right: clamp(16px, 4vw, 32px);
+  padding-left: clamp(16px, 4vw, 32px);
 `
 
-const HeadingContainer = styled.div`
+const Hero = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 1em;
-`
-
-const Heading = styled.h1`
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 1.2em;
-  font-weight: normal;
-  letter-spacing: 2px;
+  max-width: 780px;
+  margin: 0 auto;
   text-align: center;
 `
 
-export default () => (
-  <HomePage>
-    <DocumentTitle />
-    <HeadingContainer>
-      <GnomadLogo width="60%" />
-      <Heading>Genome Aggregation Database</Heading>
-    </HeadingContainer>
+const HeroMark = styled(BrandMark)`
+  width: 128px;
+  height: 128px;
+  margin-bottom: 18px;
+  object-fit: contain;
 
-    <Searchbox width="100%" />
+  @media (max-width: 520px) {
+    width: 104px;
+    height: 104px;
+  }
+`
 
-    <div
-      style={{
-        height: '1em',
-        borderBottom: '1px solid #666',
-        margin: '1em 0 2em',
-        textAlign: 'center',
-      }}
-    >
-      <span
-        style={{
-          position: 'relative',
-          top: '0.5em',
-          padding: '0 0.5em',
-          background: '#fafafa',
-        }}
-      >
-        Or
-      </span>
-    </div>
+const Eyebrow = styled.div`
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+`
 
-    <List style={{ marginBottom: '2em' }}>
-      <ListItem>
-        <ExternalLink href="https://long-read-beta.gnomad.broadinstitute.org/">
-          Explore the gnomAD LR beta release
-        </ExternalLink>
-      </ListItem>
-      <ListItem>
-        <Link to="/downloads">Download gnomAD data</Link>
-      </ListItem>
-      <ListItem>
-        <Link to="/publications">Read gnomAD publications</Link>
-      </ListItem>
-      <ListItem>
-        <Link to="/variant-cooccurrence">Find co-occurrence of two variants</Link>
-      </ListItem>
-      <ListItem>
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/short-tandem-repeats',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          Browse tandem repeats in gnomAD
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Link to="/help/what-features-are-not-yet-in-v4-and-where-can-i-find-them">
-          Locate features not yet in gnomAD v4
-        </Link>
-      </ListItem>
-    </List>
+const Heading = styled.h1`
+  margin: 0 0 10px;
+  color: var(--navy);
+  font-size: clamp(28px, 5vw, 32px);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0;
+`
 
-    <p>
-      Please note that the gnomAD v3 genomes are now part of gnomAD v4. For more information, see{' '}
-      <Link to="/help/should-i-switch-to-the-latest-version-of-gnomad">
-        &quot;Should I switch to the latest version of gnomAD?&quot;
-      </Link>
-    </p>
+const Lead = styled.p`
+  max-width: 620px;
+  margin: 0 0 34px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.5;
+`
 
-    <h2 style={{ fontSize: '1em' }}>Examples</h2>
-    <List>
-      <ListItem>
-        Gene:{' '}
-        <Link preserveSelectedDataset={false} to="/gene/ENSG00000169174">
-          PCSK9
-        </Link>
-      </ListItem>
-      <ListItem>
-        Transcript:{' '}
-        <Link preserveSelectedDataset={false} to="/transcript/ENST00000302118">
-          ENST00000302118
-        </Link>
-      </ListItem>
-      <ListItem>
-        Variant:{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/variant/1-55051215-G-GA',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          1-55051215-G-GA
-        </Link>
-      </ListItem>
-      <ListItem>
-        Structural variant region:{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/region/19-11078371-11144910',
-            search: queryString.stringify({ dataset: 'gnomad_sv_r4' }),
-          }}
-        >
-          19-11078371-11144910
-        </Link>
-      </ListItem>
-      <ListItem>
-        Copy number variant region:{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/region/1-55039447-55064852',
-            search: queryString.stringify({ dataset: 'gnomad_cnv_r4' }),
-          }}
-        >
-          1-55039447-55064852
-        </Link>
-      </ListItem>
-      <ListItem>
-        Mitochondrial variant:{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/variant/M-8602-T-C',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          M-8602-T-C
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/short-tandem-repeats',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          Short tandem repeat{' '}
-        </Link>
-        locus:{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: 'short-tandem-repeat/ATXN1',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          ATXN1
-        </Link>
-      </ListItem>
-      <ListItem>
-        Regional missense constraint (gnomAD v2, GRCh37):{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/gene/ENSG00000183454',
-            search: queryString.stringify({
-              dataset: 'gnomad_r2_1',
-              variant: ['1-55505647-G-T', '1-55523855-G-A'],
-            }),
-          }}
-        >
-          GRIN2A
-        </Link>
-      </ListItem>
-      <ListItem>
-        Variant co-occurrence (gnomAD v2, GRCh37):{' '}
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/variant-cooccurrence',
-            search: queryString.stringify({
-              dataset: 'gnomad_r2_1',
-              variant: ['1-55505647-G-T', '1-55523855-G-A'],
-            }),
-          }}
-        >
-          1-55505647-G-T and 1-55523855-G-A
-        </Link>
-      </ListItem>
-    </List>
+const SearchPanel = styled.div`
+  width: 100%;
+  max-width: 640px;
+`
 
-    <h2>New to gnomAD?</h2>
-    <p>
-      Check out these resources to learn about gnomAD and how to use it for variant interpretation.
-    </p>
-    <List>
-      <ListItem>
-        <ExternalLink href="https://onlinelibrary.wiley.com/doi/10.1002/humu.24309">
-          <em>
-            Gudmundsson et al. Variant interpretation using population databases: Lessons from
-            gnomAD.
-          </em>{' '}
-          Hum Mutat. 2022 Aug;43(8):1012-1030.
-        </ExternalLink>
-      </ListItem>
-      <ListItem>
-        <ExternalLink href="https://www.broadinstitute.org/videos/mpg-primer-using-gnomad-tips-and-tricks">
-          Using gnomAD - tips and tricks (video)
-        </ExternalLink>
-      </ListItem>
-      <ListItem>
-        <ExternalLink href="https://www.broadinstitute.org/videos/gnomad-using-large-genomic-data-sets-interpret-human-genetic-variation">
-          gnomAD: Using large genomic data sets to interpret human genetic variation (video)
-        </ExternalLink>
-      </ListItem>
-      <ListItem>
-        <ExternalLink href="https://rarediseasegenomics.org/blog/six-lessons-for-variant-interpretation">
-          Six lessons for variant interpretation
-        </ExternalLink>
-      </ListItem>
-    </List>
+const Hint = styled.p`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 12px 0 34px;
+  color: var(--text-secondary);
+  font-size: 13px;
+`
 
-    <h2>About gnomAD</h2>
+const HintLink = styled(Link)`
+  display: inline-flex;
+  max-width: 100%;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--navy-20);
+  color: var(--navy);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: none;
 
-    <p>
-      The{' '}
-      <Link preserveSelectedDataset={false} to="/about">
-        Genome Aggregation Database
-      </Link>{' '}
-      (gnomAD™) is a resource developed by an international coalition of investigators, with the
-      goal of aggregating and harmonizing both exome and genome sequencing data from a wide variety
-      of large-scale sequencing projects, and making summary data available for the wider scientific
-      community.
-    </p>
-    <p>
-      The v4 data set (GRCh38) provided on this website spans 730,947 exome sequences and 76,215
-      whole-genome sequences from unrelated individuals, of{' '}
-      <Link preserveSelectedDataset={false} to="/stats#diversity">
-        diverse ancestries
-      </Link>
-      , sequenced as part of various disease-specific and population genetic studies. The gnomAD
-      Principal Investigators and team can be found <Link to="/team">here</Link>, and the groups
-      that have contributed data to the current release are listed{' '}
-      <Link preserveSelectedDataset={false} to="/about">
-        here
-      </Link>
-      .
-    </p>
-    <p>
-      All data here are released for the benefit of the wider biomedical community, without
-      restriction on use - see the{' '}
-      <Link preserveSelectedDataset={false} to="/policies">
-        terms of use
-      </Link>
-      . Sign up for our{' '}
-      <ExternalLink href="https://groups.google.com/forum/#!forum/exac_data_announcements">
-        mailing list
-      </ExternalLink>{' '}
-      for future release announcements.
-    </p>
-  </HomePage>
-)
+  &:hover {
+    background: var(--teal-20);
+    color: var(--teal-dark);
+  }
+`
+
+const QuickLinks = styled.nav`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%;
+  max-width: 720px;
+  margin-bottom: 36px;
+`
+
+const QuickLink = styled(Link)`
+  display: flex;
+  flex: 1 0 132px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-height: 92px;
+  padding: 18px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--navy);
+  text-decoration: none;
+  transition: all 0.12s ease;
+
+  &:hover {
+    border-color: var(--teal);
+    background: var(--teal-20);
+    box-shadow: var(--shadow-sm);
+    color: var(--navy);
+    transform: translateY(-1px);
+  }
+`
+
+const QuickLinkCode = styled.span`
+  color: var(--teal-dark);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  font-size: 16px;
+  font-weight: 700;
+`
+
+const QuickLinkLabel = styled.span`
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+`
+
+const Divider = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 640px;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: var(--text-secondary);
+  font-size: 12px;
+
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+`
+
+const ExamplePills = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 720px;
+  gap: 8px;
+`
+
+const ExamplePill = styled(Link)`
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--navy-20);
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--teal-20);
+    color: var(--teal-dark);
+  }
+`
+
+const Stats = styled.section`
+  display: flex;
+  flex: 0.9 1 0;
+  flex-wrap: wrap;
+  gap: 1px;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 0;
+  background: var(--border);
+
+  @media (max-width: 420px) {
+    flex-direction: column;
+  }
+`
+
+const Stat = styled.div`
+  flex: 1 1 45%;
+  min-width: 0;
+  padding: 22px 18px;
+  background: var(--gray-50);
+  text-align: center;
+`
+
+const StatValue = styled.div`
+  color: var(--navy);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+`
+
+const StatLabel = styled.div`
+  margin-top: 4px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+`
+
+const SummaryPanel = styled.section`
+  display: flex;
+  gap: 22px;
+  align-items: stretch;
+  max-width: 1040px;
+  margin: 56px auto 0;
+
+  @media (max-width: 820px) {
+    flex-direction: column;
+  }
+`
+
+const Chart = styled.div`
+  flex: 1.1 1 280px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: var(--gray-50);
+`
+
+const ChartTitle = styled.h2`
+  margin: 0 0 16px;
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: 700;
+`
+
+const BarRow = styled.div`
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--text-secondary);
+  font-size: 12px;
+
+  > :first-child {
+    flex: 1 0 110px;
+  }
+
+  > :nth-child(2) {
+    flex: 2 0 120px;
+  }
+
+  > :last-child {
+    min-width: 56px;
+  }
+
+  @media (max-width: 520px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+    > * {
+      flex: 0 0 auto;
+    }
+  }
+`
+
+const BarTrack = styled.div`
+  overflow: hidden;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--navy-20);
+`
+
+const toneColor = (tone: 'teal' | 'pink' | 'navy') => {
+  if (tone === 'pink') {
+    return 'var(--pink)'
+  }
+  if (tone === 'navy') {
+    return 'var(--navy)'
+  }
+  return 'var(--teal)'
+}
+
+const BarFill = styled.div<{ $width: number; $tone: 'teal' | 'pink' | 'navy' }>`
+  width: ${(props) => props.$width}%;
+  height: 100%;
+  border-radius: 999px;
+  background: ${(props) => toneColor(props.$tone)};
+`
+
+type CohortSummaryBucket = {
+  id: string
+  label: string
+  count: number
+}
+
+type CohortSummary = {
+  variant_count: number
+  gene_count: number | null
+  sample_count: number | null
+  clinvar_count: number | null
+  consequence_counts: CohortSummaryBucket[]
+}
+
+const consequenceTone = (index: number) => {
+  if (index === 1) {
+    return 'pink' as const
+  }
+  if (index === 2) {
+    return 'navy' as const
+  }
+  return 'teal' as const
+}
+
+const formatNumber = (value: number | null | undefined) => {
+  if (value === null || value === undefined) {
+    return '—'
+  }
+  return value.toLocaleString()
+}
+
+const searchTo = (query: string) => ({
+  pathname: '/awesome',
+  search: queryString.stringify({ query }),
+})
+
+const quickLinks = [
+  { code: 'GENE', label: 'MUC4', query: 'MUC4' },
+  { code: 'REG', label: '1:874778-906100', query: '1-874778-906100' },
+  { code: 'VAR', label: '1-877831-T-C', query: '1-877831-T-C' },
+  { code: 'CLIN', label: 'ClinVar hit', query: '1-878314-G-C' },
+]
+
+const examples = [
+  'MUC4',
+  'TTN',
+  'SAMD11',
+  'DOC2B',
+  '1-877831-T-C',
+  '17-6115-G-C',
+  '1-874778-906100',
+]
+
+const fallbackSummary = {
+  variant_count: 150659,
+  gene_count: null,
+  sample_count: 20,
+  clinvar_count: null,
+  consequence_counts: [],
+}
+
+export default () => {
+  const [summary, setSummary] = useState<CohortSummary>(fallbackSummary)
+
+  useEffect(() => {
+    fetch('/api/', {
+      body: JSON.stringify({
+        query: `
+          query CohortSummary {
+            cohort_summary {
+              variant_count
+              gene_count
+              sample_count
+              clinvar_count
+              consequence_counts {
+                id
+                label
+                count
+              }
+            }
+          }
+        `,
+      }),
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+    })
+      .then((response) => response.json())
+      .then((response) => {
+        if (response.data?.cohort_summary) {
+          setSummary(response.data.cohort_summary)
+        }
+      })
+      .catch(() => {})
+  }, [])
+
+  const stats = useMemo(
+    () => [
+      { label: 'Variants', value: formatNumber(summary.variant_count) },
+      { label: 'Genes', value: formatNumber(summary.gene_count) },
+      { label: 'Samples', value: formatNumber(summary.sample_count) },
+      { label: 'ClinVar annotated', value: formatNumber(summary.clinvar_count) },
+    ],
+    [summary]
+  )
+
+  const maxConsequenceCount = Math.max(
+    ...summary.consequence_counts.map((bucket) => bucket.count),
+    1
+  )
+
+  return (
+    <Page>
+      <DocumentTitle title="Clinical Variant Browser" />
+      <Hero>
+        <HeroMark title="Tartu Ülikooli Kliinikum" />
+        <Eyebrow>Tartu Ülikooli Kliinikum</Eyebrow>
+        <Heading>Clinical Variant Browser</Heading>
+        <Lead>
+          Population-level variant frequencies from the local rare disease sequencing cohort.
+        </Lead>
+
+        <SearchPanel>
+          <Searchbox
+            id="home-search"
+            placeholder="Search by gene, variant, rsID or region"
+            width="100%"
+          />
+        </SearchPanel>
+        <Hint>
+          <span>Try</span>
+          {examples.slice(0, 3).map((query) => (
+            <HintLink key={query} preserveSelectedDataset={false} to={searchTo(query)}>
+              {query}
+            </HintLink>
+          ))}
+        </Hint>
+
+        <QuickLinks aria-label="Quick search types">
+          {quickLinks.map((item) => (
+            <QuickLink key={item.label} preserveSelectedDataset={false} to={searchTo(item.query)}>
+              <QuickLinkCode>{item.code}</QuickLinkCode>
+              <QuickLinkLabel>{item.label}</QuickLinkLabel>
+            </QuickLink>
+          ))}
+        </QuickLinks>
+
+        <Divider>Example searches</Divider>
+        <ExamplePills>
+          {examples.map((query) => (
+            <ExamplePill key={query} preserveSelectedDataset={false} to={searchTo(query)}>
+              {query}
+            </ExamplePill>
+          ))}
+        </ExamplePills>
+      </Hero>
+
+      <SummaryPanel>
+        <Stats aria-label="Cohort summary">
+          {stats.map((stat) => (
+            <Stat key={stat.label}>
+              <StatValue>{stat.value}</StatValue>
+              <StatLabel>{stat.label}</StatLabel>
+            </Stat>
+          ))}
+        </Stats>
+
+        <Chart aria-label="Top variant consequences">
+          <ChartTitle>Top Consequences</ChartTitle>
+          {summary.consequence_counts.map((bucket, index) => (
+            <BarRow key={bucket.id}>
+              <span>{bucket.label}</span>
+              <BarTrack>
+                <BarFill
+                  $tone={consequenceTone(index)}
+                  $width={(bucket.count / maxConsequenceCount) * 100}
+                />
+              </BarTrack>
+              <strong>{formatNumber(bucket.count)}</strong>
+            </BarRow>
+          ))}
+          {summary.consequence_counts.length === 0 && (
+            <BarRow>
+              <span>Loading</span>
+              <BarTrack>
+                <BarFill $tone="teal" $width={40} />
+              </BarTrack>
+              <strong>—</strong>
+            </BarRow>
+          )}
+        </Chart>
+      </SummaryPanel>
+    </Page>
+  )
+}

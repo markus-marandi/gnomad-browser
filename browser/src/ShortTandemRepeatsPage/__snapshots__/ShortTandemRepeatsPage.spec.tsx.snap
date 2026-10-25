@@ -9,23 +9,21 @@ exports[`ShortTandemRepeatsPage has no unexpected changes 1`] = `
         class="Page-sc-w7h773-0 inQCpN"
       >
         <div
-          class="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+          class="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
         >
           <div
-            class="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+            class="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
           >
             <h1
-              class="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+              class="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
             >
               Tandem Repeats
             </h1>
           </div>
           <div
-            class="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+            class="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
           >
-            <span
-              class="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-            >
+            <span>
               Dataset
             </span>
             <ul
@@ -691,23 +689,21 @@ exports[`ShortTandemRepeatsPage has no unexpected changes 1`] = `
       class="Page-sc-w7h773-0 inQCpN"
     >
       <div
-        class="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+        class="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
       >
         <div
-          class="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+          class="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
         >
           <h1
-            class="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+            class="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
           >
             Tandem Repeats
           </h1>
         </div>
         <div
-          class="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+          class="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
         >
-          <span
-            class="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-          >
+          <span>
             Dataset
           </span>
           <ul

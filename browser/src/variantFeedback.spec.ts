@@ -41,6 +41,7 @@ const expectedResults: Record<DatasetId, string> = {
     'http://example.com/variant_report_form?dataset_id_parameter=gnomAD%20v4&variant_id_param=1-234-A-C',
   gnomad_r4_non_ukb:
     'http://example.com/variant_report_form?dataset_id_parameter=gnomAD%20v4&variant_id_param=1-234-A-C',
+  cohort: 'http://example.com/variant_report_form?variant_id_param=1-234-A-C',
 }
 
 const originalEnv = process.env

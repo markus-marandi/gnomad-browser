@@ -50,6 +50,7 @@ describe('Searchbox', () => {
       gnomad_r4: 'gnomad_r4',
       gnomad_cnv_r4: 'gnomad_cnv_r4',
       gnomad_r4_non_ukb: 'gnomad_r4',
+      cohort: 'cohort',
     }
 
     test('has correct default dataset', () => {

@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`MitochondrialVariantPage with dataset cohort has no unexpected changes 1`] = `
+<div
+  className="StatusMessage-sc-neg7mh-0 eWmajh"
+>
+  Mitochondrial variants are not available in 
+  Tartu University Hospital
+  <br />
+  <br />
+  <a
+    className="Link-sc-14lgydv-0 jtwqlm"
+    href="/variant/M-123-A-C?dataset=gnomad_r3"
+    onClick={[Function]}
+  >
+    Search for this variant in gnomAD v3
+  </a>
+</div>
+`;
+
 exports[`MitochondrialVariantPage with dataset exac has no unexpected changes 1`] = `
 <div
   className="StatusMessage-sc-neg7mh-0 eWmajh"
@@ -23,13 +41,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_cnv_r4 has no unexpected c
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -42,11 +60,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_cnv_r4 has no unexpected c
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -7970,13 +7986,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3 has no unexpected chang
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -7989,11 +8005,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3 has no unexpected chang
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -15827,13 +15841,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_controls_and_biobanks h
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -15846,11 +15860,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_controls_and_biobanks h
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -23684,13 +23696,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_cancer has no unexp
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -23703,11 +23715,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_cancer has no unexp
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -31541,13 +31551,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_neuro has no unexpe
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -31560,11 +31570,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_neuro has no unexpe
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -39398,13 +39406,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_topmed has no unexp
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -39417,11 +39425,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_topmed has no unexp
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -47255,13 +47261,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_v2 has no unexpecte
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -47274,11 +47280,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r3_non_v2 has no unexpecte
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -55112,13 +55116,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r4 has no unexpected chang
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -55131,11 +55135,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r4 has no unexpected chang
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -62969,13 +62971,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_r4_non_ukb has no unexpect
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -62988,11 +62990,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_r4_non_ukb has no unexpect
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -70826,13 +70826,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1 has no unexpected 
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -70845,11 +70845,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1 has no unexpected 
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -78683,13 +78681,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1_controls has no un
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -78702,11 +78700,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1_controls has no un
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -86540,13 +86536,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1_non_neuro has no u
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -86559,11 +86555,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r2_1_non_neuro has no u
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -94397,13 +94391,13 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r4 has no unexpected ch
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         Single nucleotide variant
         : 
@@ -94416,11 +94410,9 @@ exports[`MitochondrialVariantPage with dataset gnomad_sv_r4 has no unexpected ch
       </h1>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul

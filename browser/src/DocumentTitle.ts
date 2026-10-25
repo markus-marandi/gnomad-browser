@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 const DocumentTitle = ({ title }: any) => {
   useEffect(() => {
-    const fullTitle = title ? `${title} | gnomAD` : 'gnomAD'
+    const fullTitle = title ? `${title} | TÜK Variant Browser` : 'TÜK Variant Browser'
     document.title = fullTitle
   }, [title])
   return null

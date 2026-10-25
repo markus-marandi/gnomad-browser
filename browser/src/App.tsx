@@ -1,6 +1,6 @@
 import React, { Suspense, lazy, useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, useLocation } from 'react-router-dom'
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 import Delayed from './Delayed'
 import ErrorBoundary from './ErrorBoundary'
@@ -8,10 +8,170 @@ import ErrorBoundary from './ErrorBoundary'
 import Notifications, { showNotification } from './Notifications'
 import StatusMessage from './StatusMessage'
 import userPreferences from './userPreferences'
-import { ExternalLink } from '@gnomad/ui'
 
 const NavBar = lazy(() => import('./NavBar'))
 const Routes = lazy(() => import('./Routes'))
+
+const GlobalStyle = createGlobalStyle`
+  :root {
+    --navy: #001a72;
+    --navy-80: #33488e;
+    --navy-60: #6676aa;
+    --navy-20: #ccd1e3;
+    --teal: #00cfb4;
+    --teal-dark: #006659;
+    --teal-20: #ccf5f0;
+    --pink: #ef426f;
+    --pink-dark: #b71c45;
+    --pink-20: #fcd9e2;
+    --white: #fff;
+    --gray-50: #f7f8fb;
+    --gray-100: #e8ebf2;
+    --text: #001a72;
+    --text-secondary: #444;
+    --border: #e0e3ee;
+    --shadow-sm: 0 1px 3px rgba(0, 26, 114, 0.07);
+    --shadow-md: 0 8px 24px rgba(0, 26, 114, 0.1);
+  }
+
+  html,
+  body {
+    width: 100%;
+    min-height: 100%;
+    background: var(--white);
+    color: var(--text);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+
+  a {
+    color: var(--teal-dark);
+  }
+
+  a:hover {
+    color: var(--navy);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--navy);
+    letter-spacing: 0;
+  }
+
+  select,
+  input[type='text'],
+  input[type='search'],
+  input:not([type]) {
+    border-color: var(--border);
+    border-radius: 4px;
+    color: var(--text);
+  }
+
+  select:focus,
+  input[type='text']:focus,
+  input[type='search']:focus,
+  input:not([type]):focus {
+    border-color: var(--teal) !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 207, 180, 0.18) !important;
+  }
+
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 207, 180, 0.18);
+  }
+
+  [role='grid'] {
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--white);
+    color: #1a2140;
+    font-size: 13px;
+  }
+
+  [role='grid'] [role='row'] {
+    border-top-color: var(--border) !important;
+  }
+
+  [role='grid'] [role='row']:first-child {
+    border-top: none !important;
+    background: var(--navy);
+    color: var(--white);
+  }
+
+  [role='grid'] [role='columnheader'] {
+    border-top: none !important;
+    background-color: var(--navy) !important;
+    background-image: none !important;
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  [role='grid'] [role='columnheader'][aria-sort='ascending'],
+  [role='grid'] [role='columnheader'][aria-sort='descending'] {
+    background-color: var(--navy-80) !important;
+  }
+
+  [role='grid'] [role='columnheader'][aria-sort='ascending'] button::after {
+    content: ' ↑';
+    color: var(--teal);
+  }
+
+  [role='grid'] [role='columnheader'][aria-sort='descending'] button::after {
+    content: ' ↓';
+    color: var(--teal);
+  }
+
+  [role='grid'] .grid-row-stripe {
+    background: var(--gray-50) !important;
+  }
+
+  [role='grid'] .grid-row:hover {
+    background: var(--teal-20) !important;
+  }
+
+  [role='grid'] .grid-row-highlight {
+    box-shadow: inset 0 0 0 2px var(--teal) !important;
+  }
+
+  table {
+    color: #1a2140;
+  }
+
+  table thead th,
+  table thead td {
+    border-bottom-color: var(--navy) !important;
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  table tbody tr:nth-child(even) {
+    background: var(--gray-50);
+  }
+
+  table tbody td,
+  table tbody th {
+    border-bottom-color: var(--border) !important;
+  }
+`
 
 export const scrollToAnchorOrStartOfPage = (location: any) => {
   if (location.hash) {
@@ -28,8 +188,6 @@ export const scrollToAnchorOrStartOfPage = (location: any) => {
   }
 }
 
-// Hack to make anchor links work on the first navigation to a page
-// See https://github.com/broadinstitute/gnomad-browser/issues/685
 const PageLoading = () => {
   const location = useLocation()
   useEffect(() => () => {
@@ -51,35 +209,12 @@ const GoogleAnalytics = () => {
 }
 
 const TopBarWrapper = styled.div`
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: var(--shadow-md);
 
   @media print {
     display: none;
   }
 `
-
-const Banner = styled.div`
-  padding: 0.75em 0.5em;
-  background: rgb(17, 115, 187);
-  color: #fff;
-  text-align: center;
-
-  a {
-    color: #8ac8f4 !important;
-    text-decoration: underline;
-  }
-`
-
-const BANNER_CONTENT = (
-  <>
-    Missed our recent talk on common misconceptions about gnomAD?{' '}
-    <ExternalLink href="https://docs.google.com/document/d/1HbD2HjdOUVZCf_0-zgEQyjNkTmKUGeGOh_VYTHTv490/edit?tab=t.0#heading=h.t8hwrqi0tmmw">
-      Watch the recording
-    </ExternalLink>{' '}
-    covering what the resource is, what metadata are available, and the types of studies it
-    includes.
-  </>
-)
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true)
@@ -101,14 +236,9 @@ const App = () => {
 
   return (
     <Router>
-      {/* On any navigation, send event to Google Analytics. */}
+      <GlobalStyle />
       <Route path="/" component={GoogleAnalytics} />
 
-      {/**
-       * On any navigation, scroll to the anchor specified by location fragment (if any) or to the top of the page.
-       * If the page's module is already loaded, scrolling is handled by this router's render function. If the page's
-       * module is loaded by Suspense, scrolling is handled by the useEffect hook in the PageLoading component.
-       */}
       <Route
         path="/"
         render={({ location }: any) => {
@@ -126,7 +256,6 @@ const App = () => {
           <Suspense fallback={null}>
             <TopBarWrapper>
               <NavBar />
-              {BANNER_CONTENT && <Banner>{BANNER_CONTENT}</Banner>}
             </TopBarWrapper>
             <Notifications />
 

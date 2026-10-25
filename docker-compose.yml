@@ -1,0 +1,66 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms2g -Xmx2g
+      - cluster.routing.allocation.disk.threshold_enabled=false
+      # hosts without root often have vm.max_map_count below ES's 262144 bootstrap
+      # requirement; disabling mmap makes ES fall back to niofs instead of aborting
+      - node.store.allow_mmap=false
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200/_cluster/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: docker.io/library/redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  graphql-api:
+    build:
+      context: .
+      dockerfile: graphql-api/Dockerfile
+    environment:
+      - NODE_ENV=development
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - PORT=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  browser:
+    build:
+      context: .
+      dockerfile: browser/Dockerfile
+    environment:
+      # webpack dev server proxies /api to this target from inside the container,
+      # so it must point at the compose service, not localhost. The proxy rewrites
+      # '^/api' off the request path, so the target must carry the /api prefix.
+      - GNOMAD_API_URL=http://graphql-api:8000/api
+    ports:
+      # webpack dev server port is hardcoded to 8008 in webpack.config.js
+      - "8008:8008"
+    depends_on:
+      - graphql-api
+
+volumes:
+  es_data:

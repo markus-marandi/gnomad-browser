@@ -1,5 +1,397 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`RegionPage with "cohort" dataset has no unexpected changes for a mitochondrial region 1`] = `
+<TrackPage>
+  <TrackPage__TrackPageSection>
+    <DocumentTitle
+      title="M-345-456 | Tartu University Hospital"
+    />
+    <GnomadPageHeading
+      datasetOptions={
+        {
+          "includeCopyNumberVariants": true,
+          "includeExac": false,
+          "includeGnomad2": false,
+          "includeGnomad3": true,
+          "includeGnomad3Subsets": false,
+          "includeGnomad4Subsets": true,
+          "includeShortVariants": true,
+          "includeStructuralVariants": false,
+        }
+      }
+      extra={
+        <withRouter()
+          initialRegion={
+            {
+              "chrom": "M",
+              "genes": [],
+              "non_coding_constraints": [],
+              "reference_genome": "GRCh37",
+              "short_tandem_repeats": [],
+              "start": 345,
+              "stop": 456,
+            }
+          }
+          style={
+            {
+              "marginLeft": "1em",
+            }
+          }
+        />
+      }
+      selectedDataset="cohort"
+    >
+      M-345-456
+    </GnomadPageHeading>
+    <RegionPage__RegionInfoColumnWrapper>
+      <div>
+        <withRouter(SectionErrorBoundary)
+          datasetId="cohort"
+          entityDescription="region M:345-456"
+          resetKeys={
+            [
+              "M",
+              345,
+              456,
+              "cohort",
+            ]
+          }
+          sectionName="Region information"
+        >
+          <React.Fragment>
+            <RegionInfo
+              region={
+                {
+                  "chrom": "M",
+                  "genes": [],
+                  "non_coding_constraints": [],
+                  "reference_genome": "GRCh37",
+                  "short_tandem_repeats": [],
+                  "start": 345,
+                  "stop": 456,
+                }
+              }
+            />
+          </React.Fragment>
+        </withRouter(SectionErrorBoundary)>
+      </div>
+      <RegionPage__RegionControlsWrapper>
+        <withRouter()
+          region={
+            {
+              "chrom": "M",
+              "genes": [],
+              "non_coding_constraints": [],
+              "reference_genome": "GRCh37",
+              "short_tandem_repeats": [],
+              "start": 345,
+              "stop": 456,
+            }
+          }
+        />
+      </RegionPage__RegionControlsWrapper>
+    </RegionPage__RegionInfoColumnWrapper>
+  </TrackPage__TrackPageSection>
+  <GnomadRegionViewer
+    leftPanelWidth={115}
+    regions={
+      [
+        {
+          "chrom": "M",
+          "genes": [],
+          "non_coding_constraints": [],
+          "reference_genome": "GRCh37",
+          "short_tandem_repeats": [],
+          "start": 345,
+          "stop": 456,
+        },
+      ]
+    }
+    rightPanelWidth={80}
+    width={994}
+  >
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region M:345-456"
+      resetKeys={
+        [
+          "M",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Region coverage"
+    >
+      <MitochondrialRegionCoverageTrack
+        datasetId="cohort"
+        start={345}
+        stop={456}
+      />
+    </withRouter(SectionErrorBoundary)>
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region M:345-456"
+      resetKeys={
+        [
+          "M",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Genes in region"
+    >
+      <GenesInRegionTrack
+        genes={[]}
+        region={
+          {
+            "chrom": "M",
+            "genes": [],
+            "non_coding_constraints": [],
+            "reference_genome": "GRCh37",
+            "short_tandem_repeats": [],
+            "start": 345,
+            "stop": 456,
+          }
+        }
+      />
+    </withRouter(SectionErrorBoundary)>
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region M:345-456"
+      resetKeys={
+        [
+          "M",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Variants"
+    >
+      <MitochondrialVariantsInRegion
+        datasetId="cohort"
+        region={
+          {
+            "chrom": "M",
+            "genes": [],
+            "non_coding_constraints": [],
+            "reference_genome": "GRCh37",
+            "short_tandem_repeats": [],
+            "start": 345,
+            "stop": 456,
+          }
+        }
+        zoomRegion={
+          {
+            "chrom": "M",
+            "genes": [],
+            "non_coding_constraints": [],
+            "reference_genome": "GRCh37",
+            "short_tandem_repeats": [],
+            "start": 345,
+            "stop": 456,
+          }
+        }
+      />
+    </withRouter(SectionErrorBoundary)>
+  </GnomadRegionViewer>
+</TrackPage>
+`;
+
+exports[`RegionPage with "cohort" dataset has no unexpected changes for a non-mitochondrial region 1`] = `
+<TrackPage>
+  <TrackPage__TrackPageSection>
+    <DocumentTitle
+      title="12-345-456 | Tartu University Hospital"
+    />
+    <GnomadPageHeading
+      datasetOptions={
+        {
+          "includeCopyNumberVariants": true,
+          "includeExac": true,
+          "includeGnomad2": true,
+          "includeGnomad3": false,
+          "includeGnomad3Subsets": true,
+          "includeGnomad4Subsets": true,
+          "includeShortVariants": true,
+          "includeStructuralVariants": true,
+        }
+      }
+      extra={
+        <withRouter()
+          initialRegion={
+            {
+              "chrom": "12",
+              "genes": [],
+              "non_coding_constraints": [],
+              "reference_genome": "GRCh37",
+              "short_tandem_repeats": [],
+              "start": 345,
+              "stop": 456,
+            }
+          }
+          style={
+            {
+              "marginLeft": "1em",
+            }
+          }
+        />
+      }
+      selectedDataset="cohort"
+    >
+      12-345-456
+    </GnomadPageHeading>
+    <RegionPage__RegionInfoColumnWrapper>
+      <div>
+        <withRouter(SectionErrorBoundary)
+          datasetId="cohort"
+          entityDescription="region 12:345-456"
+          resetKeys={
+            [
+              "12",
+              345,
+              456,
+              "cohort",
+            ]
+          }
+          sectionName="Region information"
+        >
+          <React.Fragment>
+            <RegionInfo
+              region={
+                {
+                  "chrom": "12",
+                  "genes": [],
+                  "non_coding_constraints": [],
+                  "reference_genome": "GRCh37",
+                  "short_tandem_repeats": [],
+                  "start": 345,
+                  "stop": 456,
+                }
+              }
+            />
+          </React.Fragment>
+        </withRouter(SectionErrorBoundary)>
+      </div>
+      <RegionPage__RegionControlsWrapper>
+        <withRouter()
+          region={
+            {
+              "chrom": "12",
+              "genes": [],
+              "non_coding_constraints": [],
+              "reference_genome": "GRCh37",
+              "short_tandem_repeats": [],
+              "start": 345,
+              "stop": 456,
+            }
+          }
+        />
+      </RegionPage__RegionControlsWrapper>
+    </RegionPage__RegionInfoColumnWrapper>
+  </TrackPage__TrackPageSection>
+  <GnomadRegionViewer
+    leftPanelWidth={115}
+    regions={
+      [
+        {
+          "chrom": "12",
+          "genes": [],
+          "non_coding_constraints": [],
+          "reference_genome": "GRCh37",
+          "short_tandem_repeats": [],
+          "start": 345,
+          "stop": 456,
+        },
+      ]
+    }
+    rightPanelWidth={80}
+    width={994}
+  >
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region 12:345-456"
+      resetKeys={
+        [
+          "12",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Region coverage"
+    >
+      <RegionCoverageTrack
+        chrom="12"
+        datasetId="cohort"
+        includeExomeCoverage={false}
+        includeGenomeCoverage={false}
+        start={345}
+        stop={456}
+      />
+    </withRouter(SectionErrorBoundary)>
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region 12:345-456"
+      resetKeys={
+        [
+          "12",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Genes in region"
+    >
+      <GenesInRegionTrack
+        genes={[]}
+        region={
+          {
+            "chrom": "12",
+            "genes": [],
+            "non_coding_constraints": [],
+            "reference_genome": "GRCh37",
+            "short_tandem_repeats": [],
+            "start": 345,
+            "stop": 456,
+          }
+        }
+      />
+    </withRouter(SectionErrorBoundary)>
+    <withRouter(SectionErrorBoundary)
+      datasetId="cohort"
+      entityDescription="region 12:345-456"
+      resetKeys={
+        [
+          "12",
+          345,
+          456,
+          "cohort",
+        ]
+      }
+      sectionName="Variants"
+    >
+      <ConnectedVariantsInRegion
+        datasetId="cohort"
+        region={
+          {
+            "chrom": "12",
+            "genes": [],
+            "non_coding_constraints": [],
+            "reference_genome": "GRCh37",
+            "short_tandem_repeats": [],
+            "start": 345,
+            "stop": 456,
+          }
+        }
+      />
+    </withRouter(SectionErrorBoundary)>
+  </GnomadRegionViewer>
+</TrackPage>
+`;
+
 exports[`RegionPage with "exac" dataset has no unexpected changes for a mitochondrial region 1`] = `
 <TrackPage>
   <TrackPage__TrackPageSection>

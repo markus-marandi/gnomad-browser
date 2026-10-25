@@ -1,5 +1,153 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ShortTandemRepeatPageContainer with dataset cohort queries API with correct parameters 1`] = `
+<Page>
+  <DocumentTitle
+    title="ATXN1 | Tandem Repeat | Tartu University Hospital"
+  />
+  <GnomadPageHeading
+    datasetOptions={
+      {
+        "includeCopyNumberVariants": false,
+        "includeExac": false,
+        "includeGnomad2": false,
+        "includeGnomad3": true,
+        "includeGnomad3Subsets": false,
+        "includeShortVariants": true,
+        "includeStructuralVariants": false,
+      }
+    }
+    selectedDataset="cohort"
+  >
+    Tandem Repeat: 
+    <span>
+      ATXN1
+    </span>
+  </GnomadPageHeading>
+  <Query
+    errorMessage="Unable to load tandem repeat data"
+    loadingMessage="Loading tandem repeat data"
+    operationName="ShortTandemRepeat"
+    query="
+query ShortTandemRepeat($strId: String!, $datasetId: DatasetId!) {
+  short_tandem_repeat(id: $strId, dataset: $datasetId) {
+    id
+    gene {
+      ensembl_id
+      symbol
+      region
+    }
+    associated_diseases {
+      name
+      symbol
+      omim_id
+      inheritance_mode
+      repeat_size_classifications {
+        classification
+        min
+        max
+      }
+      notes
+    }
+    main_reference_region {
+      reference_genome
+      chrom
+      start
+      stop
+    }
+    reference_regions {
+      reference_genome
+      chrom
+      start
+      stop
+    }
+    reference_repeat_unit
+    repeat_units {
+      repeat_unit
+      classification
+    }
+    allele_size_distribution {
+      ancestry_group
+      sex
+      repunit
+      quality_description
+      q_score
+      distribution {
+        repunit_count
+        frequency
+      }
+    }
+    genotype_distribution {
+      ancestry_group
+      sex
+      short_allele_repunit
+      long_allele_repunit
+      quality_description
+      q_score
+      distribution {
+        short_allele_repunit_count
+        long_allele_repunit_count
+        frequency
+      }
+    }
+    age_distribution {
+      age_range
+      distribution
+    }
+    stripy_id
+    strchive_id
+    adjacent_repeats {
+      id
+      reference_region {
+        reference_genome
+        chrom
+        start
+        stop
+      }
+      reference_repeat_unit
+      repeat_units
+    }
+    allele_size_distribution {
+      ancestry_group
+      sex
+      repunit
+      quality_description
+      q_score
+      distribution {
+        repunit_count
+        frequency
+      }
+    }
+    genotype_distribution {
+      ancestry_group
+      sex
+      short_allele_repunit
+      long_allele_repunit
+      quality_description
+      q_score
+      distribution {
+        short_allele_repunit_count
+        long_allele_repunit_count
+        frequency
+      }
+    }
+  }
+}
+"
+    success={[Function]}
+    url="/api/"
+    variables={
+      {
+        "datasetId": "cohort",
+        "strId": "ATXN1",
+      }
+    }
+  >
+    [Function]
+  </Query>
+</Page>
+`;
+
 exports[`ShortTandemRepeatPageContainer with dataset exac queries API with correct parameters 1`] = `
 <Page>
   <DocumentTitle

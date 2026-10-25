@@ -51,6 +51,7 @@ const datasetsWithoutCoverage: DatasetId[] = [
   'gnomad_r2_1_non_neuro',
   'gnomad_r2_1_non_cancer',
   'gnomad_r2_1_non_topmed',
+  'cohort',
 ]
 const datasetsWithCoverage = allDatasetIds.filter(
   (datasetId) => !datasetsWithoutCoverage.includes(datasetId)

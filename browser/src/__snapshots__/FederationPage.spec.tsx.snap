@@ -41,12 +41,31 @@ exports[`Federation Page has no unexpected changes 1`] = `
 }
 
 .c1 {
+  max-width: 1200px;
+  padding: 0 24px;
+  color: var(--text);
   font-size: 16px;
 }
 
 .c1 p {
   margin-bottom: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.c1 h1,
+.c1 h2,
+.c1 h3 {
+  color: var(--navy);
+  letter-spacing: 0;
+}
+
+.c1 h1 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.c1 h2 {
+  font-size: 22px;
 }
 
 .c4 {

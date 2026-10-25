@@ -76,10 +76,40 @@ const parseGeneSearchResults = (
 
 type SearchResultItem = { label: string; value: string }
 
+const fetchCohortSearchResults = (query: string): Promise<SearchResultItem[]> => {
+  return fetch('/api/', {
+    body: JSON.stringify({
+      query: `
+        query CohortSearch($query: String!) {
+          cohort_search(query: $query) {
+            label
+            value
+          }
+        }
+      `,
+      variables: { query },
+    }),
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-GnomAD-Client': 'browser' },
+  })
+    .then((response) => response.json())
+    .then((response) => {
+      if (!response.data?.cohort_search) {
+        throw new Error('Unable to retrieve cohort search results')
+      }
+
+      return response.data.cohort_search
+    })
+}
+
 export const fetchSearchResults = (
   datasetId: DatasetId,
   query: string
 ): Promise<SearchResultItem[]> => {
+  if (datasetId === 'cohort' && !isVariantId(query) && !isRsId(query)) {
+    return fetchCohortSearchResults(query)
+  }
+
   if (datasetId.startsWith('gnomad_sv')) {
     // ==============================================================================================
     // Structural Variants

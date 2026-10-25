@@ -10,19 +10,20 @@ const PageHeadingWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #ccc;
-  margin: 0.67em 0;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px 0 18px;
+  border-bottom: 1px solid var(--border);
+  margin: 0 0 22px;
+  background: var(--white);
 
   @media (max-width: 1200px) {
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 0.25em;
   }
 
   @media (max-width: 900px) {
-    align-items: center;
+    align-items: stretch;
   }
 `
 
@@ -33,22 +34,24 @@ const PageHeadingInnerWrapper = styled.div`
   align-items: center;
   overflow: hidden;
   max-width: 100%;
-  padding: 3px 0;
-
-  @media (max-width: 1200px) {
-    margin-bottom: 1em;
-  }
+  padding-left: 14px;
+  border-left: 4px solid var(--teal);
 
   @media (max-width: 900px) {
     flex-direction: column;
+    align-items: flex-start;
   }
 `
 
 const CenterPanel = styled.div`
   flex-shrink: 0;
 
+  @media (min-width: 901px) {
+    margin-left: 14px;
+  }
+
   @media (max-width: 900px) {
-    margin: 0.25em 0;
+    margin-top: 8px;
   }
 `
 
@@ -56,28 +59,28 @@ const PageHeadingText = styled.h1`
   overflow: hidden;
   max-width: 100%;
   margin: 0;
+  color: var(--navy);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
-
-  @media (max-width: 900px) {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
 `
 
 const PageControlsWrapper = styled.div`
   display: flex;
   flex-shrink: 0;
   align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
 
-  @media (min-width: 900px) {
-    margin-left: 1ch;
+  @media (max-width: 900px) {
+    justify-content: flex-start;
+    width: 100%;
   }
-`
-
-const Label = styled.span`
-  margin-right: 0.5em;
 `
 
 type Props = {
@@ -94,7 +97,7 @@ const GnomadPageHeading = ({ children, extra, datasetOptions, selectedDataset }:
       {extra && <CenterPanel>{extra}</CenterPanel>}
     </PageHeadingInnerWrapper>
     <PageControlsWrapper>
-      <Label>Dataset</Label>
+      <span>Dataset</span>
       <DatasetSelector datasetOptions={datasetOptions} selectedDataset={selectedDataset} />
       <span>
         <InfoButton topic="dataset-selection" />

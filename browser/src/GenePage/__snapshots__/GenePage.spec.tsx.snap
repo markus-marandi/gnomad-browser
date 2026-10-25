@@ -8,13 +8,13 @@ exports[`GenePage with CNV dataset "gnomad_cnv_r4" has no unexpected changes 1`]
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -24,11 +24,9 @@ exports[`GenePage with CNV dataset "gnomad_cnv_r4" has no unexpected changes 1`]
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -1546,13 +1544,13 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1" has no unexpected changes 1`]
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -1562,11 +1560,9 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1" has no unexpected changes 1`]
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -3071,13 +3067,13 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1_controls" has no unexpected ch
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -3087,11 +3083,9 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1_controls" has no unexpected ch
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -4596,13 +4590,13 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1_non_neuro" has no unexpected c
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -4612,11 +4606,9 @@ exports[`GenePage with SV dataset "gnomad_sv_r2_1_non_neuro" has no unexpected c
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -6121,13 +6113,13 @@ exports[`GenePage with SV dataset "gnomad_sv_r4" has no unexpected changes 1`] =
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -6137,11 +6129,9 @@ exports[`GenePage with SV dataset "gnomad_sv_r4" has no unexpected changes 1`] =
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -7638,7 +7628,7 @@ exports[`GenePage with SV dataset "gnomad_sv_r4" has no unexpected changes 1`] =
 </div>
 `;
 
-exports[`GenePage with non-SV dataset "exac" has no unexpected changes 1`] = `
+exports[`GenePage with non-SV dataset "cohort" has no unexpected changes 1`] = `
 <div
   className="Page-sc-w7h773-0 TrackPage-sc-1xq3qi7-0 inQCpN kMAZul"
 >
@@ -7646,13 +7636,13 @@ exports[`GenePage with non-SV dataset "exac" has no unexpected changes 1`] = `
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -7662,11 +7652,962 @@ exports[`GenePage with non-SV dataset "exac" has no unexpected changes 1`] = `
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
+        <span>
+          Dataset
+        </span>
+        <ul
+          className="DatasetSelector__NavigationMenuWrapper-sc-1p2fxbn-0 llwGeF"
         >
+          <li
+            className="DatasetSelector__NavigationMenuItem-sc-1p2fxbn-2 cNeMlR"
+            isActive={true}
+          >
+            <a
+              className="DatasetSelector__TopLevelNavigationLink-sc-1p2fxbn-1 iTVAby"
+              data-item="current_short_variant"
+              href="/?dataset=cohort"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              Tartu University Hospital
+            </a>
+          </li>
+          <li
+            className="DatasetSelector__NavigationMenuItem-sc-1p2fxbn-2 cNeMlR"
+            isActive={true}
+          >
+            <a
+              aria-expanded={false}
+              aria-haspopup="true"
+              aria-label="More datasets"
+              className="DatasetSelector__TopLevelNavigationLink-sc-1p2fxbn-1 iTVAby"
+              data-item="other_short_variant"
+              href="/"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              <span
+                className="DatasetSelector__MoreIcon-sc-1p2fxbn-3 jpnidu"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="test-file-stub"
+                />
+              </span>
+            </a>
+            <ul
+              className="DatasetSelector__SubNavigationMenu-sc-1p2fxbn-4 eJbUtd"
+              isExpanded={false}
+            >
+              <li>
+                <div
+                  className="DatasetSelector__GroupedNav-sc-1p2fxbn-7 fNWeWH"
+                >
+                  GRCh38
+                </div>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r4"
+                    href="/?dataset=gnomad_r4"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v4.1.2
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      807,162 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r4_non_ukb"
+                    href="/?dataset=gnomad_r4_non_ukb"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v4.1.2 (non-UKB)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      314,392 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3"
+                    href="/?dataset=gnomad_r3"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      76,156 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3_non_cancer"
+                    href="/?dataset=gnomad_r3_non_cancer"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2 (non-cancer)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      74,023 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3_non_neuro"
+                    href="/?dataset=gnomad_r3_non_neuro"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2 (non-neuro)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      67,442 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3_non_v2"
+                    href="/?dataset=gnomad_r3_non_v2"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2 (non-v2)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      57,344 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3_non_topmed"
+                    href="/?dataset=gnomad_r3_non_topmed"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2 (non-TOPMed)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      40,433 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r3_controls_and_biobanks"
+                    href="/?dataset=gnomad_r3_controls_and_biobanks"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v3.1.2 (controls/biobanks)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      16,465 samples
+                    </div>
+                  </a>
+                </li>
+              </li>
+              <li>
+                <div
+                  className="DatasetSelector__GroupedNav-sc-1p2fxbn-7 fNWeWH"
+                >
+                  GRCh37
+                </div>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r2_1"
+                    href="/?dataset=gnomad_r2_1"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v2.1.1
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      141,456 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r2_1_non_topmed"
+                    href="/?dataset=gnomad_r2_1_non_topmed"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v2.1.1 (non-TOPMed)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      135,743 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r2_1_non_cancer"
+                    href="/?dataset=gnomad_r2_1_non_cancer"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v2.1.1 (non-cancer)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      134,187 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r2_1_non_neuro"
+                    href="/?dataset=gnomad_r2_1_non_neuro"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v2.1.1 (non-neuro)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      114,704 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_r2_1_controls"
+                    href="/?dataset=gnomad_r2_1_controls"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD v2.1.1 (controls)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      60,146 samples
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="exac"
+                    href="/?dataset=exac"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    ExAC
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      60,706 samples
+                    </div>
+                  </a>
+                </li>
+              </li>
+            </ul>
+          </li>
+          <li
+            className="DatasetSelector__NavigationMenuItem-sc-1p2fxbn-2 iUDFJr"
+            isActive={false}
+          >
+            <a
+              className="DatasetSelector__TopLevelNavigationLink-sc-1p2fxbn-1 iTVAby"
+              data-item="current_sv_dataset"
+              href="/?dataset=gnomad_sv_r4"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              gnomAD SVs v4.1.0
+            </a>
+          </li>
+          <li
+            className="DatasetSelector__NavigationMenuItem-sc-1p2fxbn-2 iUDFJr"
+            isActive={false}
+          >
+            <a
+              aria-expanded={false}
+              aria-haspopup="true"
+              aria-label="More datasets"
+              className="DatasetSelector__TopLevelNavigationLink-sc-1p2fxbn-1 iTVAby"
+              data-item="other_structural_variant"
+              href="/"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              <span
+                className="DatasetSelector__MoreIcon-sc-1p2fxbn-3 jpnidu"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="test-file-stub"
+                />
+              </span>
+            </a>
+            <ul
+              className="DatasetSelector__SubNavigationMenu-sc-1p2fxbn-4 eJbUtd"
+              isExpanded={false}
+            >
+              <li>
+                <div
+                  className="DatasetSelector__GroupedNav-sc-1p2fxbn-7 fNWeWH"
+                >
+                  GRCh38
+                </div>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_sv_r4"
+                    href="/?dataset=gnomad_sv_r4"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD SVs v4.1.0
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      63,046 samples, genome
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_cnv_r4"
+                    href="/?dataset=gnomad_cnv_r4"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD CNVs v4.1.0
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      464,297 samples, exome, rare (&lt;0.01)
+                    </div>
+                  </a>
+                </li>
+              </li>
+              <li>
+                <div
+                  className="DatasetSelector__GroupedNav-sc-1p2fxbn-7 fNWeWH"
+                >
+                  GRCh37
+                </div>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_sv_r2_1"
+                    href="/?dataset=gnomad_sv_r2_1"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD SVs v2.1
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      10,847 samples, genome
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_sv_r2_1_non_neuro"
+                    href="/?dataset=gnomad_sv_r2_1_non_neuro"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD SVs v2.1 (non-neuro)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      8,342 samples, genome
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="DatasetSelector__SubNavigationLink-sc-1p2fxbn-5 fAkdhO"
+                    data-item="gnomad_sv_r2_1_controls"
+                    href="/?dataset=gnomad_sv_r2_1_controls"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                  >
+                    gnomAD SVs v2.1 (controls)
+                    <div
+                      className="DatasetSelector__ItemDescription-sc-1p2fxbn-6 gKTZkZ"
+                    >
+                      5,192 samples, genome
+                    </div>
+                  </a>
+                </li>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <span>
+          <button
+            className="InfoButton__Button-sc-13t5e82-0 faZoWY"
+            onClick={[Function]}
+            type="button"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="test-file-stub"
+            />
+            <span
+              style={
+                {
+                  "border": "0",
+                  "clip": "rect(0 0 0 0)",
+                  "height": "1px",
+                  "margin": "-1px",
+                  "overflow": "hidden",
+                  "padding": "0",
+                  "position": "absolute",
+                  "whiteSpace": "nowrap",
+                  "width": "1px",
+                }
+              }
+            >
+              More information
+            </span>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div
+      className="GenePage__GeneInfoColumnWrapper-sc-rcxzgc-1 bbwpsA"
+    >
+      <div
+        className="GenePage__GeneInfoColumn-sc-rcxzgc-2 hRBcWH"
+      >
+        <dl
+          className="AttributeList-sc-1yjjegy-0 gnGPdi"
+          style={
+            {
+              "marginTop": "1.25em",
+            }
+          }
+        >
+          <div>
+            <dt>
+              Genome build
+            </dt>
+            <dd>
+              GRCh37
+               / 
+              hg19
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Ensembl gene ID
+            </dt>
+            <dd>
+              dummy_gene-1
+              .
+              5.6.7.8
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Symbol in GENCODE v19
+            </dt>
+            <dd />
+          </div>
+          <div>
+            <dt>
+              Ensembl canonical transcript 
+              <button
+                className="InfoButton__Button-sc-13t5e82-0 faZoWY"
+                onClick={[Function]}
+                type="button"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="test-file-stub"
+                />
+                <span
+                  style={
+                    {
+                      "border": "0",
+                      "clip": "rect(0 0 0 0)",
+                      "height": "1px",
+                      "margin": "-1px",
+                      "overflow": "hidden",
+                      "padding": "0",
+                      "position": "absolute",
+                      "whiteSpace": "nowrap",
+                      "width": "1px",
+                    }
+                  }
+                >
+                  More information
+                </span>
+              </button>
+            </dt>
+            <dd>
+              <a
+                className="Link-sc-14lgydv-0 jtwqlm"
+                href="/transcript/transcript-999"
+                onClick={[Function]}
+              >
+                transcript-999
+                .
+                12.34.5
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Region
+            </dt>
+            <dd>
+              <a
+                className="Link-sc-14lgydv-0 jtwqlm"
+                href="/region/13-123-321"
+                onClick={[Function]}
+              >
+                13
+                :
+                123
+                -
+                321
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>
+              External resources
+            </dt>
+            <dd>
+              <a
+                className="Link-sc-14lgydv-0 Link__ExternalLink-sc-14lgydv-1 jtwqlm"
+                href="https://grch37.ensembl.org/Homo_sapiens/Gene/Summary?g=dummy_gene-1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Ensembl
+              </a>
+              ,
+               
+              <a
+                className="Link-sc-14lgydv-0 Link__ExternalLink-sc-14lgydv-1 jtwqlm"
+                href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&position=chr13%3A123-321"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                UCSC Browser
+              </a>
+              ,
+               
+              <button
+                className="Button__TextButton-sc-1eobygi-3 bMMlfW"
+                onClick={[Function]}
+                type="button"
+              >
+                and more
+              </button>
+            </dd>
+          </div>
+        </dl>
+      </div>
+      <div
+        className="GenePage__ConstraintOrCooccurrenceColumn-sc-rcxzgc-3 jkKjua"
+      >
+        <div
+          className="GenePage__TableSelectorWrapper-sc-rcxzgc-4 czbTmA"
+        >
+          <div
+            className="sc-kNOymR bRGVuq"
+            onClick={[Function]}
+            ownTableName="constraint"
+            selectedTableName="constraint"
+            setSelectedTableName={[Function]}
+          >
+            Constraint
+            <button
+              className="InfoButton__Button-sc-13t5e82-0 faZoWY"
+              onClick={[Function]}
+              type="button"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="test-file-stub"
+              />
+              <span
+                style={
+                  {
+                    "border": "0",
+                    "clip": "rect(0 0 0 0)",
+                    "height": "1px",
+                    "margin": "-1px",
+                    "overflow": "hidden",
+                    "padding": "0",
+                    "position": "absolute",
+                    "whiteSpace": "nowrap",
+                    "width": "1px",
+                  }
+                }
+              >
+                More information
+              </span>
+            </button>
+          </div>
+          <div
+            className="sc-kNOymR hNobvs"
+            onClick={[Function]}
+            ownTableName="cooccurrence"
+            selectedTableName="constraint"
+            setSelectedTableName={[Function]}
+          >
+            Variant co-occurrence 
+            <button
+              className="InfoButton__Button-sc-13t5e82-0 faZoWY"
+              onClick={[Function]}
+              type="button"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="test-file-stub"
+              />
+              <span
+                style={
+                  {
+                    "border": "0",
+                    "clip": "rect(0 0 0 0)",
+                    "height": "1px",
+                    "margin": "-1px",
+                    "overflow": "hidden",
+                    "padding": "0",
+                    "position": "absolute",
+                    "whiteSpace": "nowrap",
+                    "width": "1px",
+                  }
+                }
+              >
+                More information
+              </span>
+            </button>
+          </div>
+        </div>
+        <p>
+          Constraint is not available for 
+          Tartu University Hospital
+          .
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="RegionViewer__RegionViewerWrapper-sc-1hxpl0h-0 kMndZu"
+  >
+    <div
+      className="sc-bRKDuR guPHpL"
+      style={
+        {
+          "width": 994,
+        }
+      }
+    >
+      <div
+        className="StatusMessage-sc-neg7mh-0 eWmajh"
+      >
+        <div>
+          Something went wrong rendering 
+          Gene coverage
+          .
+        </div>
+        <div
+          style={
+            {
+              "marginTop": "0.5em",
+            }
+          }
+        >
+          <button
+            className="Button__TextButton-sc-1eobygi-3 bMMlfW"
+            onClick={[Function]}
+            type="button"
+          >
+            Report this issue
+          </button>
+          .
+        </div>
+      </div>
+      <div
+        className="ChartStyles__ControlPanel-sc-atxio9-0 dWLmkQ"
+        marginLeft={100}
+        width={814}
+      >
+        Include:
+        <ul
+          className="ChartStyles__Legend-sc-atxio9-1 guILPR"
+        >
+          <li
+            className="ChartStyles__LegendItemWrapper-sc-atxio9-2 ciKcVG"
+          >
+            <label
+              className="ChartStyles__Label-sc-atxio9-3 iaGgrF"
+              htmlFor="include-cds-regions"
+            >
+              <input
+                checked={false}
+                className="ChartStyles__CheckboxInput-sc-atxio9-4 ifHXIv"
+                disabled={true}
+                id="include-cds-regions"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Coding regions (CDS)
+              <span
+                className="ChartStyles__LegendSwatch-sc-atxio9-5 ctkimH"
+                color="#424242"
+                height={10}
+              />
+            </label>
+          </li>
+          <li
+            className="ChartStyles__LegendItemWrapper-sc-atxio9-2 ciKcVG"
+          >
+            <label
+              className="ChartStyles__Label-sc-atxio9-3 iaGgrF"
+              htmlFor="include-utr-regions"
+            >
+              <input
+                checked={false}
+                className="ChartStyles__CheckboxInput-sc-atxio9-4 ifHXIv"
+                disabled={true}
+                id="include-utr-regions"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Untranslated regions (UTRs)
+              <span
+                className="ChartStyles__LegendSwatch-sc-atxio9-5 vuAfG"
+                color="#424242"
+                height={4}
+              />
+            </label>
+          </li>
+          <li
+            className="ChartStyles__LegendItemWrapper-sc-atxio9-2 ciKcVG"
+          >
+            <label
+              className="ChartStyles__Label-sc-atxio9-3 iaGgrF"
+              htmlFor="include-nc-transcripts"
+            >
+              <input
+                checked={true}
+                className="ChartStyles__CheckboxInput-sc-atxio9-4 ifHXIv"
+                disabled={true}
+                id="include-nc-transcripts"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Non-coding transcripts
+              <span
+                className="ChartStyles__LegendSwatch-sc-atxio9-5 gYShcS"
+                color="#bdbdbd"
+                height={4}
+              />
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="GenePage__TrackWrapper-sc-rcxzgc-5 inDseh"
+      >
+        <div
+          className="sc-ggWZvA faMivF"
+        >
+          <div
+            className="sc-dTvVRJ ejoLSV"
+          >
+            <div
+              className="sc-hjsuWn ccbdKG"
+              style={
+                {
+                  "width": 115,
+                }
+              }
+            >
+              <div
+                className="GenePage__ToggleTranscriptsPanel-sc-rcxzgc-6 ieXGny"
+              >
+                <img
+                  alt="Positive strand"
+                  height={20}
+                  src="test-file-stub"
+                  width={20}
+                />
+                <button
+                  backgroundColor="#f8f9fa"
+                  borderColor="#6c757d"
+                  className="Button__BaseButton-sc-1eobygi-0 Button-sc-1eobygi-1 VaScf"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Show
+                   transcripts
+                </button>
+              </div>
+            </div>
+            <div
+              className="sc-jJLAfE KfhrV"
+              style={
+                {
+                  "width": 799,
+                }
+              }
+            >
+              <div
+                className="GenePage__CompositeTranscriptPlotWrapper-sc-rcxzgc-7 UVOxT"
+              >
+                <svg
+                  height={20}
+                  width={799}
+                >
+                  <line
+                    stroke="#bdbdbd"
+                    strokeWidth={1}
+                    x1={0}
+                    x2={799}
+                    y1={10}
+                    y2={10}
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
+      >
+        <h2>
+          ClinVar variants
+        </h2>
+      </div>
+      <p
+        className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
+      >
+        No ClinVar variants found in this gene.
+      </p>
+      <div
+        className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
+      >
+        <h2
+          style={
+            {
+              "margin": "2em 0 0.25em",
+            }
+          }
+        >
+          gnomAD variants
+        </h2>
+        <p>
+          No gnomAD variants found.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GenePage with non-SV dataset "exac" has no unexpected changes 1`] = `
+<div
+  className="Page-sc-w7h773-0 TrackPage-sc-1xq3qi7-0 inQCpN kMAZul"
+>
+  <div
+    className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
+  >
+    <div
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
+    >
+      <div
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
+      >
+        <h1
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
+        >
+          FAKEGENE
+           
+          <span
+            className="GenePage__GeneName-sc-rcxzgc-0 dDAXUR"
+          />
+        </h1>
+      </div>
+      <div
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
+      >
+        <span>
           Dataset
         </span>
         <ul
@@ -9207,13 +10148,13 @@ exports[`GenePage with non-SV dataset "gnomad_cnv_r4" has no unexpected changes 
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -9223,11 +10164,9 @@ exports[`GenePage with non-SV dataset "gnomad_cnv_r4" has no unexpected changes 
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -10745,13 +11684,13 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1" has no unexpected changes 1`
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -10761,11 +11700,9 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1" has no unexpected changes 1`
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -12401,13 +13338,13 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_controls" has no unexpected c
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -12417,11 +13354,9 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_controls" has no unexpected c
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -14057,13 +14992,13 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_cancer" has no unexpected
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -14073,11 +15008,9 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_cancer" has no unexpected
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -15713,13 +16646,13 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_neuro" has no unexpected 
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -15729,11 +16662,9 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_neuro" has no unexpected 
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -17369,13 +18300,13 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_topmed" has no unexpected
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -17385,11 +18316,9 @@ exports[`GenePage with non-SV dataset "gnomad_r2_1_non_topmed" has no unexpected
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -19025,13 +19954,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3" has no unexpected changes 1`] 
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -19041,11 +19970,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3" has no unexpected changes 1`] 
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -20586,13 +21513,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3_controls_and_biobanks" has no u
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -20602,11 +21529,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3_controls_and_biobanks" has no u
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -22147,13 +23072,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_cancer" has no unexpected c
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -22163,11 +23088,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_cancer" has no unexpected c
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -23708,13 +24631,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_neuro" has no unexpected ch
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -23724,11 +24647,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_neuro" has no unexpected ch
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -25269,13 +26190,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_topmed" has no unexpected c
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -25285,11 +26206,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_topmed" has no unexpected c
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -26830,13 +27749,13 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_v2" has no unexpected chang
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -26846,11 +27765,9 @@ exports[`GenePage with non-SV dataset "gnomad_r3_non_v2" has no unexpected chang
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -28391,13 +29308,13 @@ exports[`GenePage with non-SV dataset "gnomad_r4" has no unexpected changes 1`] 
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -28407,11 +29324,9 @@ exports[`GenePage with non-SV dataset "gnomad_r4" has no unexpected changes 1`] 
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -29952,13 +30867,13 @@ exports[`GenePage with non-SV dataset "gnomad_r4_non_ukb" has no unexpected chan
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           FAKEGENE
            
@@ -29968,11 +30883,9 @@ exports[`GenePage with non-SV dataset "gnomad_r4_non_ukb" has no unexpected chan
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul
@@ -31513,13 +32426,13 @@ exports[`gene page for a mitochondrial gene doesn't include a show-transcripts b
     className="TrackPage__TrackPageSection-sc-1xq3qi7-1 enpsUz"
   >
     <div
-      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+      className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
     >
       <div
-        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+        className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
       >
         <h1
-          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+          className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
         >
           MT-ATP6
            
@@ -31529,11 +32442,9 @@ exports[`gene page for a mitochondrial gene doesn't include a show-transcripts b
         </h1>
       </div>
       <div
-        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+        className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
       >
-        <span
-          className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-        >
+        <span>
           Dataset
         </span>
         <ul

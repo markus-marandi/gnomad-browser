@@ -126,6 +126,110 @@ exports[` 19`] = `
 </p>
 `;
 
+exports[` 20`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected and gene with available constraint but with no_exp_lof flag set omits constraint 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected and gene with available constraint but with no_exp_mis flag set omits constraint 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected and gene with available constraint but with no_exp_syn flag set omits constraint 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected and gene with available constraint has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected and transcript with available constraint has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a minimal gene has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a minimal transcript has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a mitochondrial RNA gene has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a mitochondrial RNA gene highlights upper LOF OE CI if below 0.27 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a mitochondrial protein gene has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a mitochondrial protein gene highlights upper LOF OE CI if below 0.058 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
+exports[`ConstraintTable with "cohort" dataset selected with a mitochondrial transcript has no unexpected changes 1`] = `
+<p>
+  Constraint is not available for 
+  Tartu University Hospital
+  .
+</p>
+`;
+
 exports[`ConstraintTable with "exac" dataset selected with a minimal gene has no unexpected changes 1`] = `
 <p>
   Constraint is not available for this 

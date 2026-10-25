@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`MitochondrialVariantsInRegion with dataset cohort has no unexpected changes 1`] = `
+<div
+  className="StatusMessage-sc-neg7mh-0 eWmajh"
+>
+  Mitochondrial variants are not available in 
+  Tartu University Hospital
+  <br />
+  <br />
+  <a
+    className="Link-sc-14lgydv-0 jtwqlm"
+    href="/region/M-123-456?dataset=gnomad_r3"
+    onClick={[Function]}
+  >
+    View this region in gnomAD v3.1 to see mitochondrial variants
+  </a>
+</div>
+`;
+
 exports[`MitochondrialVariantsInRegion with dataset exac has no unexpected changes 1`] = `
 <div
   className="StatusMessage-sc-neg7mh-0 eWmajh"

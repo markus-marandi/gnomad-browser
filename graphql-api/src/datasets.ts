@@ -1,4 +1,5 @@
 export const DATASET_LABELS = {
+  cohort: 'Tartu University Hospital',
   gnomad_r4: 'gnomAD v4',
   gnomad_r4_non_ukb: 'gnomAD v4 (non-UK Biobank)',
   gnomad_cnv_r4: 'gnomAD v4 cnv',
@@ -17,6 +18,7 @@ export const DATASET_LABELS = {
 }
 
 export const DATASET_REFERENCE_GENOMES: Record<string, string> = {
+  cohort: 'GRCh37',
   gnomad_r4: 'GRCh38',
   gnomad_r4_non_ukb: 'GRCh38',
   gnomad_cnv_r4: 'GRCh38',

@@ -1,5 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`MitochondrialRegionCoverageTrack with dataset cohort queries with appropriate params 1`] = `
+<StatusMessage>
+  Mitochondrial genome coverage is not available in 
+  Tartu University Hospital
+</StatusMessage>
+`;
+
 exports[`MitochondrialRegionCoverageTrack with dataset exac has no unexpected changes 1`] = `
 <div
   className="StatusMessage-sc-neg7mh-0 eWmajh"

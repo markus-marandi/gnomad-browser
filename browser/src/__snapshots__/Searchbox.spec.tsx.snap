@@ -2,12 +2,12 @@
 
 exports[`Searchbox has no unexpected changes when no dataset specified 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
     onChange={[Function]}
-    value="gnomad_r4"
+    value="cohort"
   >
     <optgroup
       label="GRCh38"
@@ -36,6 +36,105 @@ exports[`Searchbox has no unexpected changes when no dataset specified 1`] = `
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
+      <option
+        value="gnomad_r2_1"
+      >
+        gnomAD v2.1.1
+      </option>
+      <option
+        value="gnomad_sv_r2_1"
+      >
+        gnomAD SVs v2.1
+      </option>
+      <option
+        value="exac"
+      >
+        ExAC
+      </option>
+    </optgroup>
+  </select>
+  <span
+    style={
+      {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <div
+      style={
+        {
+          "display": "inline-block",
+          "width": "100%",
+        }
+      }
+    >
+      <input
+        aria-autocomplete="list"
+        aria-expanded={false}
+        autoComplete="off"
+        className="Combobox__Input-sc-is1dz3-0 Searchbox__SearchboxInput-sc-kp6w3x-0 lnVqLJ dYBFkh"
+        data-testid="searchbox-input"
+        hasResults={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Search by gene, region, or variant"
+        role="combobox"
+        value=""
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`Searchbox with selected dataset cohort has no unexpected changes 1`] = `
+<div
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
+>
+  <select
+    className="Select-sc-1lkyg9e-0 iPbHsk"
+    onChange={[Function]}
+    value="cohort"
+  >
+    <optgroup
+      label="GRCh38"
+    >
+      <option
+        value="gnomad_r4"
+      >
+        gnomAD v4.1.2
+      </option>
+      <option
+        value="gnomad_r3"
+      >
+        gnomAD v3.1.2
+      </option>
+      <option
+        value="gnomad_sv_r4"
+      >
+        gnomAD SVs v4.1.0
+      </option>
+      <option
+        value="gnomad_cnv_r4"
+      >
+        gnomAD CNVs v4.1.0
+      </option>
+    </optgroup>
+    <optgroup
+      label="GRCh37"
+    >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -91,7 +190,7 @@ exports[`Searchbox has no unexpected changes when no dataset specified 1`] = `
 
 exports[`Searchbox with selected dataset exac has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -125,6 +224,11 @@ exports[`Searchbox with selected dataset exac has no unexpected changes 1`] = `
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -180,7 +284,7 @@ exports[`Searchbox with selected dataset exac has no unexpected changes 1`] = `
 
 exports[`Searchbox with selected dataset gnomad_cnv_r4 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -214,6 +318,11 @@ exports[`Searchbox with selected dataset gnomad_cnv_r4 has no unexpected changes
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -269,7 +378,7 @@ exports[`Searchbox with selected dataset gnomad_cnv_r4 has no unexpected changes
 
 exports[`Searchbox with selected dataset gnomad_r2_1 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -303,6 +412,11 @@ exports[`Searchbox with selected dataset gnomad_r2_1 has no unexpected changes 1
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -358,7 +472,7 @@ exports[`Searchbox with selected dataset gnomad_r2_1 has no unexpected changes 1
 
 exports[`Searchbox with selected dataset gnomad_r2_1_controls has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -392,6 +506,11 @@ exports[`Searchbox with selected dataset gnomad_r2_1_controls has no unexpected 
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -447,7 +566,7 @@ exports[`Searchbox with selected dataset gnomad_r2_1_controls has no unexpected 
 
 exports[`Searchbox with selected dataset gnomad_r2_1_non_cancer has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -481,6 +600,11 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_cancer has no unexpecte
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -536,7 +660,7 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_cancer has no unexpecte
 
 exports[`Searchbox with selected dataset gnomad_r2_1_non_neuro has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -570,6 +694,11 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_neuro has no unexpected
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -625,7 +754,7 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_neuro has no unexpected
 
 exports[`Searchbox with selected dataset gnomad_r2_1_non_topmed has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -659,6 +788,11 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_topmed has no unexpecte
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -714,7 +848,7 @@ exports[`Searchbox with selected dataset gnomad_r2_1_non_topmed has no unexpecte
 
 exports[`Searchbox with selected dataset gnomad_r3 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -748,6 +882,11 @@ exports[`Searchbox with selected dataset gnomad_r3 has no unexpected changes 1`]
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -803,7 +942,7 @@ exports[`Searchbox with selected dataset gnomad_r3 has no unexpected changes 1`]
 
 exports[`Searchbox with selected dataset gnomad_r3_controls_and_biobanks has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -837,6 +976,11 @@ exports[`Searchbox with selected dataset gnomad_r3_controls_and_biobanks has no 
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -892,7 +1036,7 @@ exports[`Searchbox with selected dataset gnomad_r3_controls_and_biobanks has no 
 
 exports[`Searchbox with selected dataset gnomad_r3_non_cancer has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -926,6 +1070,11 @@ exports[`Searchbox with selected dataset gnomad_r3_non_cancer has no unexpected 
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -981,7 +1130,7 @@ exports[`Searchbox with selected dataset gnomad_r3_non_cancer has no unexpected 
 
 exports[`Searchbox with selected dataset gnomad_r3_non_neuro has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1015,6 +1164,11 @@ exports[`Searchbox with selected dataset gnomad_r3_non_neuro has no unexpected c
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1070,7 +1224,7 @@ exports[`Searchbox with selected dataset gnomad_r3_non_neuro has no unexpected c
 
 exports[`Searchbox with selected dataset gnomad_r3_non_topmed has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1104,6 +1258,11 @@ exports[`Searchbox with selected dataset gnomad_r3_non_topmed has no unexpected 
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1159,7 +1318,7 @@ exports[`Searchbox with selected dataset gnomad_r3_non_topmed has no unexpected 
 
 exports[`Searchbox with selected dataset gnomad_r3_non_v2 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1193,6 +1352,11 @@ exports[`Searchbox with selected dataset gnomad_r3_non_v2 has no unexpected chan
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1248,7 +1412,7 @@ exports[`Searchbox with selected dataset gnomad_r3_non_v2 has no unexpected chan
 
 exports[`Searchbox with selected dataset gnomad_r4 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1282,6 +1446,11 @@ exports[`Searchbox with selected dataset gnomad_r4 has no unexpected changes 1`]
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1337,7 +1506,7 @@ exports[`Searchbox with selected dataset gnomad_r4 has no unexpected changes 1`]
 
 exports[`Searchbox with selected dataset gnomad_r4_non_ukb has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1371,6 +1540,11 @@ exports[`Searchbox with selected dataset gnomad_r4_non_ukb has no unexpected cha
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1426,7 +1600,7 @@ exports[`Searchbox with selected dataset gnomad_r4_non_ukb has no unexpected cha
 
 exports[`Searchbox with selected dataset gnomad_sv_r2_1 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1460,6 +1634,11 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1 has no unexpected change
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1515,7 +1694,7 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1 has no unexpected change
 
 exports[`Searchbox with selected dataset gnomad_sv_r2_1_controls has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1549,6 +1728,11 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1_controls has no unexpect
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1604,7 +1788,7 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1_controls has no unexpect
 
 exports[`Searchbox with selected dataset gnomad_sv_r2_1_non_neuro has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1638,6 +1822,11 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1_non_neuro has no unexpec
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >
@@ -1693,7 +1882,7 @@ exports[`Searchbox with selected dataset gnomad_sv_r2_1_non_neuro has no unexpec
 
 exports[`Searchbox with selected dataset gnomad_sv_r4 has no unexpected changes 1`] = `
 <div
-  className="Searchbox__Wrapper-sc-oq7bs2-0 crrwqb"
+  className="Searchbox__Wrapper-sc-oq7bs2-0 dpNuZr"
 >
   <select
     className="Select-sc-1lkyg9e-0 iPbHsk"
@@ -1727,6 +1916,11 @@ exports[`Searchbox with selected dataset gnomad_sv_r4 has no unexpected changes 
     <optgroup
       label="GRCh37"
     >
+      <option
+        value="cohort"
+      >
+        Tartu University Hospital
+      </option>
       <option
         value="gnomad_r2_1"
       >

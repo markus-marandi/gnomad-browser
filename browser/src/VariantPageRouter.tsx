@@ -24,6 +24,7 @@ const MNVPage = lazy(() => import('./MNVPage/MNVPage'))
 const StructuralVariantPage = lazy(() => import('./StructuralVariantPage/StructuralVariantPage'))
 const CopyNumberVariantPage = lazy(() => import('./CopyNumberVariantPage/CopyNumberVariantPage'))
 const VariantPage = lazy(() => import('./VariantPage/VariantPage'))
+const CohortVariantPage = lazy(() => import('./VariantPage/CohortVariantPage'))
 
 type VariantSearchProps = {
   datasetId: DatasetId
@@ -106,6 +107,9 @@ type VariantPageRouterProps = {
 }
 
 const VariantPageRouter = ({ datasetId, variantId }: VariantPageRouterProps) => {
+  if (datasetId === 'cohort') {
+    return <CohortVariantPage datasetId={datasetId} variantId={variantId} />
+  }
   if (hasStructuralVariants(datasetId)) {
     return <StructuralVariantPage datasetId={datasetId} variantId={variantId} />
   }

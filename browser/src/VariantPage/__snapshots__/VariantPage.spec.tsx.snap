@@ -5,13 +5,13 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -68,7 +68,7 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -87,11 +87,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -7588,13 +7586,13 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -7651,7 +7649,7 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -7670,11 +7668,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -15174,13 +15170,13 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -15237,7 +15233,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -15256,11 +15252,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -22760,13 +22754,13 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -22823,7 +22817,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -22842,11 +22836,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -30346,13 +30338,13 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -30409,7 +30401,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -30428,11 +30420,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -37932,13 +37922,13 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -37995,7 +37985,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -38014,11 +38004,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -45518,13 +45506,13 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -45581,7 +45569,7 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -45600,11 +45588,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -51874,13 +51860,13 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -51937,7 +51923,7 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -51956,11 +51942,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -59561,13 +59545,13 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -59624,7 +59608,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -59643,11 +59627,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -67248,13 +67230,13 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -67311,7 +67293,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -67330,11 +67312,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -74935,13 +74915,13 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -74998,7 +74978,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -75017,11 +74997,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul
@@ -82622,13 +82600,13 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
   className="Page-sc-w7h773-0 inQCpN"
 >
   <div
-    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 dvPVoX"
+    className="GnomadPageHeading__PageHeadingWrapper-sc-sgz3rr-0 iPGpHh"
   >
     <div
-      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 eSZnPV"
+      className="GnomadPageHeading__PageHeadingInnerWrapper-sc-sgz3rr-1 fQcOef"
     >
       <h1
-        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jnCErQ"
+        className="GnomadPageHeading__PageHeadingText-sc-sgz3rr-3 jIlwvR"
       >
         <span
           className="VariantPageTitle__TitleWrapper-sc-16g6pnt-0 cBmihs"
@@ -82685,7 +82663,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
         </span>
       </h1>
       <div
-        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 eUrmoF"
+        className="GnomadPageHeading__CenterPanel-sc-sgz3rr-2 gHYvHi"
       >
         <button
           backgroundColor="#f8f9fa"
@@ -82704,11 +82682,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
       </div>
     </div>
     <div
-      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 djaGuB"
+      className="GnomadPageHeading__PageControlsWrapper-sc-sgz3rr-4 enTSJm"
     >
-      <span
-        className="GnomadPageHeading__Label-sc-sgz3rr-5 cyEZAf"
-      >
+      <span>
         Dataset
       </span>
       <ul

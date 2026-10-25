@@ -12,18 +12,66 @@ const Wrapper = styled.div`
   display: flex;
   align-items: stretch;
   width: ${(props: any) => props.width};
+  min-width: 0;
+  height: 38px;
+
+  > span {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
 
   select {
-    border-right: 1px solid #ddd;
+    flex: 0 0 auto;
+    min-width: 124px;
+    height: 38px;
+    border: 1px solid var(--border);
+    border-right: 1px solid var(--border);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     background-color: #fff;
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 600;
   }
 
   input {
+    min-width: 0;
+    height: 38px;
+    border: 1px solid var(--border);
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    color: var(--text);
+    font-size: 15px;
+  }
+
+  input:focus,
+  select:focus {
+    position: relative;
+    z-index: 1;
+    border-color: var(--teal) !important;
+    box-shadow: 0 0 0 3px rgba(0, 207, 180, 0.18) !important;
+  }
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+    height: auto;
+
+    select,
+    input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
+
+    input {
+      margin-top: 6px;
+    }
+
+    > span {
+      width: 100%;
+    }
   }
 `
 
@@ -51,7 +99,10 @@ const getDefaultSearchDataset = (selectedDataset: any) => {
       return 'gnomad_cnv_r4'
     }
   }
-  return 'gnomad_r4'
+  if (selectedDataset === 'cohort') {
+    return 'cohort'
+  }
+  return 'cohort'
 }
 
 export default withRouter((props: any) => {
@@ -80,7 +131,7 @@ export default withRouter((props: any) => {
   const innerSearchbox = useRef(null)
 
   const grch38Datasets: DatasetId[] = ['gnomad_r4', 'gnomad_r3', 'gnomad_sv_r4', 'gnomad_cnv_r4']
-  const grch37Datasets: DatasetId[] = ['gnomad_r2_1', 'gnomad_sv_r2_1', 'exac']
+  const grch37Datasets: DatasetId[] = ['cohort', 'gnomad_r2_1', 'gnomad_sv_r2_1', 'exac']
 
   return (
     // @ts-expect-error TS(2769) FIXME: No overload matches this call.
